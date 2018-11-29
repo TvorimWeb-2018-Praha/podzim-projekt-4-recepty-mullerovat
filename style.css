@@ -11,8 +11,8 @@ body {
 }
 
 h2 {
-    margin: 0;
-    font-family: 'Raleway', sans-serif;
+	margin: 0;
+	font-family: 'Raleway', sans-serif;
 }
 
 .paticka {
@@ -40,3 +40,164 @@ notebook/pc:
 */
 
 /* tvoje styly sem */
+
+.doporucujeme{
+	display: flex;
+	flex-direction: column;
+}
+
+.hlavni-recept{
+	display: flex;
+	font-family: 'raleway', sans-serif;
+	font-weight:800;
+	font-size:28px;
+}
+
+.recept-meta{
+	display: flex;
+	font-family:'Source Sans Pro', sans-serif;
+	font-weight:400;
+	font-size:14px;
+}
+
+.recept-kategorie{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	color: white;
+}
+
+.recept-komentare{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	color: black;
+}
+
+.recept-nazev{
+	position: absolute;
+	font-family: 'raleway', sans-serif;
+	font-weight:800;
+	font-size:18px;
+	bottom: 10px;
+	left: 10px;
+	color: white;
+}
+
+
+.sloupec{
+
+}
+
+.recept{
+	display: flex;
+	position: relative;
+}
+
+.recept2{
+	background-image: url("images/sushi.jpg");
+	background-repeat: no-repeat;
+	
+}
+
+.recept3{
+	background-image: url("images/rajcata.jpg");	
+	background-repeat: no-repeat;
+	
+}
+
+.recept4{
+	background-image: url("images/kure.jpg");
+	background-repeat: no-repeat;
+	
+}
+
+.recept5{
+	background-image: url("images/grilovani.jpg");
+	background-repeat: no-repeat;
+}
+
+/*@media(min-width:480px) {
+	.doporucujeme{
+		display: flex;
+		flex-basis: 100%;
+	}
+	
+	.hlavni-recept{
+		display: flex;		
+		font-family: 'raleway', sans-serif;
+		font-weight:800;
+		font-size:36px;
+		flex-basis: 100%;
+		}
+	
+	.recept-meta{
+		font-family:'Source Sans Pro', sans-serif;
+		font-weight:400;
+		font-size:14px;
+	}
+	
+	.recept-kategorie{
+		position: absolute;
+		top: 20px;
+		left: 20px;
+		color: white;
+	}
+	
+	.recept-komentare{
+		position: absolute;
+		text-align: left;
+		top: 20px;
+		right: 20px;
+		color: white;
+	}
+	
+	.recept-nazev{
+		position: absolute;
+		font-family: 'raleway', sans-serif;
+		font-weight:800;
+		font-size:22px;
+		bottom: 20px;
+		left: 20px;
+		color: white;
+	}
+	
+	.sloupec{
+		display: flex;
+		flex-direction: row;
+		flex-basis: 100%;
+	}
+	
+	.recept{
+		display: flex;
+		position: relative;
+		flex-basis:50%;
+	}
+	
+	.obrazek{
+		display: flex;
+	}
+	
+	.recept2{
+		background-image: url("images/sushi.jpg");
+		background-repeat: no-repeat;
+	}
+	
+	.recept3{
+		background-image: url("images/rajcata.jpg");	
+		background-repeat: no-repeat;
+		
+	}
+	
+	.recept4{
+		background-image: url("images/kure.jpg");
+		background-repeat: no-repeat;
+		
+	}
+	
+	.recept5{
+		background-image: url("images/grilovani.jpg");
+		background-repeat: no-repeat;
+		
+	}
+	*/
