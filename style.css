@@ -124,6 +124,12 @@ notebook/pc:
 }
 
 @media(min-width:480px) {
+	.doporucujeme{
+		flex-direction: column;
+		flex-basis: 100%;
+		flex-wrap: wrap;
+	}
+	
 	.hlavni-recept{
 		border-color: white;
 		border-width: 1px;
@@ -159,6 +165,7 @@ notebook/pc:
 		display: flex;
 		flex-basis: 50%;
 		flex-direction: row;
+		flex-wrap: wrap;
 	}
 	
 	.recept{
@@ -174,15 +181,15 @@ notebook/pc:
 	}
 	
 	.recept3{
-		order: 3;	
+		order: 2;	
 	}
 	
 	.recept4{
-		order: 0;
+		order: 1;
 	}
 	
 	.recept5{
-		order: 2;
+		order: 3;
 	}
 
 }
@@ -191,10 +198,11 @@ notebook/pc:
 		.doporucujeme{
 			flex-direction: row;
 			flex-basis: 100%;
+			flex-wrap: wrap;
 		}
 		
 		.hlavni-recept{
-			flex-basis: 100%;
+			flex-basis: 50%;
 			min-height: 400px;
 		}
 		
@@ -207,15 +215,15 @@ notebook/pc:
 		}
 		
 		.sloupec{
-			flex-basis: 100%;
-			flex-direction: column;
-			flex-wrap: nowrap;
+			flex-basis: 50%;
+			flex-direction: row;
+			flex-wrap: wrap;
 		}
 		
 		.recept{
 			min-height: 200px;
 			align-items: center;
-			flex-basis: 25%;
+			flex-basis: 50%;
 			}
 		
 		.recept2{
